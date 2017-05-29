@@ -3,6 +3,7 @@
     this.left = null;
     this.right = null;
 } */
+
 function reConstructBinaryTree(pre,vin){
   if(!pre || pre.length === 0){
     return;
